@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/fancybox.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Главная</title>
+</head>
+
+
+
+<style>
+    .wrapper a {
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+
+    .wrapper button {
+        margin-bottom: 25px;
+        width: 300px;
+        height: 45px;
+    }
+</style>
+
+<body class="m-page">
+
+    <div class="wrapper" style="padding: 50px;">
+        <a href="index.html" style="display: block; margin-bottom: 20px;">
+            Главная
+        </a>
+        <a href="blog.html" style="display: block; margin-bottom: 20px;">
+            Блог
+        </a>
+        <a href="article.html" style="display: block; margin-bottom: 20px;">
+            Статья
+        </a>
+        <a href="tariffs.html" style="display: block; margin-bottom: 20px;">
+            Тарифы
+        </a>
+        <a href="404.html" style="display: block; margin-bottom: 20px;">
+            404
+        </a>
+        <a href="politics.html" style="display: block; margin-bottom: 20px;">
+            политика конфиденциальности
+        </a>
+        <a href="contacts.html" style="display: block; margin-bottom: 20px;">
+            Контакты
+        </a>
+
+
+    </div>
+
+
+
+
+
+
+
+    <div class="modal" id="consultModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <button class="close-btn _close-modal">
+                <img src="img/burger2.svg" alt="">
+            </button>
+
+            <form class="condition-form ">
+                <div class="condition-form__col">
+                    <div class="h1">
+                        Есть вопрос?
+                    </div>
+
+                    <div class="condition-form__desc">
+                        Задайте его нам, и мы оперативно ответим
+                    </div>
+
+                    <img class="condition-form__arrow" src="img/arrow.svg" alt="">
+                </div>
+                <div class="condition-form__col2">
+                    <div class="condition-form__fields">
+
+                        <div class="fg">
+                            <select>
+                                <option selected>telegram</option>
+                                <option>vk</option>
+                                <option>instagram</option>
+                            </select>
+                        </div>
+                        <div class="fg">
+                            <input type="text" placeholder="никнейм в телеграм">
+                        </div>
+
+                        <div class="fg _full">
+                            <input type="text" placeholder="ваш вопрос">
+                        </div>
+
+                    </div>
+                    <div class="m-check">
+                        <input type="checkbox">
+                        <label>
+                            <span>
+                    Я согласен с <a href="">Политикой конфиденциальности</a>, <a href="">Правилами предоставления банковских услуг</a> и <a href="">Договором Оферты</a>
+                </span>
+                        </label>
+                    </div>
+                    <div class="condition-form__nav">
+                        <button class="condition-form__btn m-btn m-btn-green">
+                            <span>создать карту</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="condition-form__success">
+                    <img src="img/check2.svg" alt="" class="condition-form__success-icon">
+                    <div class="condition-form__success-title">
+                        Форма успешно отправлена!
+                    </div>
+                </div>
+            </form>
+
+            <div class="condition-form condition-form--bg"></div>
+        </div>
+    </div>
+
+    <!--  -->
+    <div class="modal" id="consultModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <button class="close-btn _close-modal">
+                <img src="img/burger2.svg" alt="">
+            </button>
+
+            <form class="condition-form ">
+                <div class="condition-form__col">
+                    <div class="h1">
+                        Есть вопрос?
+                    </div>
+
+                    <div class="condition-form__desc">
+                        Задайте его нам, и мы оперативно ответим
+                    </div>
+
+                    <img class="condition-form__arrow" src="img/arrow.svg" alt="">
+                </div>
+                <div class="condition-form__col2">
+                    <div class="condition-form__fields">
+
+                        <div class="fg">
+                            <select>
+                                <option selected>telegram</option>
+                                <option>vk</option>
+                                <option>instagram</option>
+                            </select>
+                        </div>
+                        <div class="fg">
+                            <input type="text" placeholder="никнейм в телеграм">
+                        </div>
+
+                        <div class="fg _full">
+                            <input type="text" placeholder="ваш вопрос">
+                        </div>
+
+                    </div>
+                    <div class="m-check">
+                        <input type="checkbox">
+                        <label>
+                            <span>
+                    Я согласен с <a href="">Политикой конфиденциальности</a>, <a href="">Правилами предоставления банковских услуг</a> и <a href="">Договором Оферты</a>
+                </span>
+                        </label>
+                    </div>
+                    <div class="condition-form__nav">
+                        <button class="condition-form__btn m-btn m-btn-green">
+                            <span>создать карту</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="condition-form__success">
+                    <img src="img/check2.svg" alt="" class="condition-form__success-icon">
+                    <div class="condition-form__success-title">
+                        Форма успешно отправлена!
+                    </div>
+                </div>
+            </form>
+
+            <div class="condition-form condition-form--bg"></div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/typed.js@2.0.js"></script>
+    <script src="js/fancybox.umd.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
